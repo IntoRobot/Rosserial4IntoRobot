@@ -1,0 +1,21 @@
+<package>
+  <name>rosserial_intorobot</name>
+  <version>0.4.1</version>
+  <description>
+    Libraries and examples for ROSserial usage on IntoRobot/STM32 Platforms.
+  </description>
+  <author>Haoyao Chen</author>
+  <maintainer email="chenhy.hit@gmail.com">Haoyao Chen</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>rosserial_msgs</run_depend>
+  <run_depend>rosserial_client</run_depend>
+  <run_depend>message_runtime</run_depend>
+</package>
+
+
